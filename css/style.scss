@@ -13,3 +13,127 @@
   img {
     width: 100%;
   }
+
+  #page-header {
+    display: grid;
+    place-items: center;
+    height: 50px;
+
+    >img {
+      height: 30px;
+    }
+  }
+
+#first-section {
+  background-image: url(/img/forest.jpg);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  justify-items: center;
+  align-items: end;
+  color: white;
+  text-align: center;
+
+  >h1 {
+    font-size: 2.2rem;
+    margin: 0 25vw 30px;
+  }
+}
+
+#second-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#second-section-div {
+  display: grid;
+}
+
+#second-section-div-seagull {
+  background-image: url(/img/seagull.jpg);
+  height: 230px;
+  background-position: center;
+  background-size: cover;
+}
+
+#second-section-div-boat {
+  background-image: url(/img/boat.jpg);
+  height: 230px;
+  background-position: center;
+  background-size: cover;
+}
+
+#second-section-div-birds {
+  background-image: url(/img/birds_flying.jpg);
+  height: 230px;
+  background-position: center;
+  background-size: cover;
+}
+
+#second-section-div-text {
+  display: grid;
+  margin-left: 50px;
+  margin-right: 200px;
+  height: 230px;
+
+  >h1 {
+    font-size: 2.5rem;
+  }
+
+  >p {
+    transform: translateY(50px);
+  }
+}
+
+#third-section {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background-image: url(/img/sky.jpg);
+  height: 500px;
+  background-size: cover;
+
+  >h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 50px;
+  }
+}
+
+#third-section-div {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 20px;
+}
+
+.third-section-articles {
+  display: grid;
+  background-color: #fff;
+  height: 300px;
+  width: 250px;
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+
+.third-section-articles-img {
+  width: 80px;
+  justify-self: center;
+}
+
+.third-section-articles-icon {
+  width: 40px;
+  justify-self: center;
+}
+
+#fourth-section {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  height: 150px;
+
+  >div>h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+}
